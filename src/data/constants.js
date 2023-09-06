@@ -175,6 +175,19 @@ export const Bio = {
       webapp: "https://codsoft-drab.vercel.app/home",
       
     },
+{
+      id: 2,
+      title: "Calculator",
+      date: "Aug 2023 - Aug 2023",
+      description:"The webiste is where you may do basic calculations. Its build with HTML, CSS, Javascript, React and MUI",
+      image: Calc,
+      tags: ["React Js",  "Html", "CSS", "Javascript", "MUI"],
+      category: "web app",
+      github: "https://github.com/Uday31-2004/CODSOFT-calculator",
+      webapp: "https://codsoft-calculator-one.vercel.app/",
+      
+    },
+      
     
   ];
   
