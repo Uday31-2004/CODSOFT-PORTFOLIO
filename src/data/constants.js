@@ -1,7 +1,7 @@
 import Whatsapp from '../images/Whatsapp.png'
 import Destino from '../images/Destino.png'
-
-
+import Calc from '../images/calc.png'
+import Codepen from '../images/codepen.png'
 export const Bio = {
     name: "Uday Sharma",
     roles: [
@@ -12,7 +12,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Uday31-2004",
     resume:
-      "https://drive.google.com/file/d/1ApNx5cSbkaK-iRGO_0Hp23aTm79NMlbS/view?usp=sharing",
+      "https://drive.google.com/file/d/1VAb4YZqf4rNmdldIH0vt2FUXbaEXVsi5/view",
     linkedin: "https://www.linkedin.com/in/uday-sharma-3b4927228/",
   };
   
@@ -162,9 +162,20 @@ export const Bio = {
       ],
       category: "web app",
       github: "https://github.com/Uday31-2004/whatsapp-clone",
+    },{
+      id: 2,
+      title: "Codepen",
+      date: "Feb 2024 - Mar 2024",
+      description:"CodePen is an online code editor and community for front-end developers to create, test, and share HTML, CSS, and JavaScript code snippets. It offers real-time previews and collaboration features, enhancing the web development workflow and learning experience.",
+      image: Codepen,
+      tags: ["React Js",  "Html", "CSS", "Javascript", "MUI"],
+      category: "web app",
+      github: "https://github.com/Uday31-2004/codepen",
+      webapp: "https://codepen-three.vercel.app/home/projects",
+      
     },
     {
-      id: 1,
+      id: 2,
       title: "Destino",
       date: "Aug 2023 - Aug 2023",
       description:"The webiste is a one-page frontend build with the help of HTML, CSS, and Javascript",
@@ -175,7 +186,18 @@ export const Bio = {
       webapp: "https://codsoft-drab.vercel.app/home",
       
     },
-
+    {
+      id: 3,
+      title: "Calculator",
+      date: "Aug 2023 - Aug 2023",
+      description:"The webiste is where you may do basic calculations. Its build with HTML, CSS, Javascript, React and MUI",
+      image: Calc,
+      tags: ["React Js",  "Html", "CSS", "Javascript", "MUI"],
+      category: "web app",
+      github: "https://github.com/Uday31-2004/CODSOFT-calculator",
+      webapp: "https://codsoft-calculator-three.vercel.app/",
+      
+    },
       
     
   ];
